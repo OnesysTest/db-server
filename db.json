@@ -1,0 +1,503 @@
+{
+  "TimesheetListingVO": [{
+      "_comment": "================================= Permet de consulter la liste des RH disponible =================================",
+      "id": 1,
+      "agenceId": "200",
+      "agenceLibelle": "Saumur",
+      "timesheetId": 1,
+      "semaine": "2019-06",
+      "clientId": 1245,
+      "clientNom": "Onesys SARL",
+      "interimId": 719416,
+      "interimNom": "BESSON ERIC",
+      "qualifId": "M17",
+      "qualifLibelle": "Développeur",
+      "contratId": 7895213,
+      "contratRef": "523835",
+      "contratDateDebut": "03/06/2019",
+      "contratDateFin": "29/06/2019",
+      "sscId": 1599877,
+      "sscNom": "Onesys Vénisseux",
+      "nbJours": 5,
+      "nbHeures": 39.0,
+      "taux": 18.037,
+      "montantPaie": 532.25,
+      "montantFac": 958.16,
+      "status": 0,
+      "actions": [
+        0,
+        1,
+        6,
+        8,
+        7
+      ]
+    },
+    {
+      "_comment": "================================= Permet de consulter la liste des RH disponible =================================",
+      "id": 2,
+      "agenceId": "200",
+      "agenceLibelle": "Saumur",
+      "timesheetId": 1,
+      "semaine": "2019-06",
+      "clientId": 1245,
+      "clientNom": "Onesys SARL",
+      "interimId": 719416,
+      "interimNom": "BESSON ERIC",
+      "qualifId": "M17",
+      "qualifLibelle": "Développeur",
+      "contratId": 7895213,
+      "contratRef": "523835",
+      "contratDateDebut": "03/06/2019",
+      "contratDateFin": "29/06/2019",
+      "sscId": 1599877,
+      "sscNom": "Onesys Vénisseux",
+      "nbJours": 3,
+      "nbHeures": 21.0,
+      "taux": 18.037,
+      "montantPaie": 532.25,
+      "montantFac": 958.16,
+      "status": 0,
+      "actions": [
+        0,
+        1,
+        6,
+        8,
+        7
+      ]
+    }
+  ],
+  "TimesheetWeekVO": [],
+  "TimesheetDetailVO": [{
+      "id": 1,
+      "weekDate": "2019-32",
+      "startDate": "05/08/2019",
+      "endDate": "11/08/2019",
+      "compteImputationId": 12,
+      "compteImputationLibelle": "Compte Informatique",
+      "weekPart": 1,
+      "RhPdfPath": "http://gestionrh.usgpeople.fr/Archive/054/2019/561110/32/2519784_0_20190812T091241.jpg?1565599383915",
+      "statut": {
+        "id": 1,
+        "libelle": "A saisir"
+      },
+      "sources": [{
+          "id": 1,
+          "libelle": "Manuel"
+        },
+        {
+          "id": 2,
+          "libelle": "Import"
+        }
+      ],
+      "nbJours": 5,
+      "nbHeures": 39.0,
+      "montantFac": 958.16,
+      "montantPaie": 532.25,
+      "commentaire": "Commentaire sur le RH",
+      "timesheetHeaderVO": {
+        "_comment": "=================================  Entete des RH =================================",
+        "contratId": 7895213,
+        "contratDateDebut": "03/06/2019",
+        "contratDateFin": "29/06/2019",
+        "contratDateDebutSouplesse": "23/06/2019",
+        "contratDateFinSouplesse": "30/06/2019",
+        "contratDateUtilisationSouplesse": "31/06/2019",
+        "contratDateFinAffichage": "31/06/2019",
+        "contratStatusCode": 1,
+        "contratStatusLibelle": "Cloturé",
+        "clientId": 1245,
+        "clientNom": "Onesys SARL",
+        "interimId": 719416,
+        "interimNom": "BESSON ERIC"
+      },
+      "timesheetLinesDaysAndHoursVO": [{
+        "compteImputationId": 12,
+        "compteImputationLibelle": "Compte Informatique",
+        "typeJourId": 1,
+        "typeJourLibelle": "Jour",
+        "timesheetDaysVO": [{
+            "dayDate": "2019-08-05T00:00:00.000Z",
+            "nbHeures": 7,
+            "commentaire": "L'intérimaire a bien travaillé le lundi"
+          },
+          {
+            "dayDate": "2019-08-06T00:00:00.000Z",
+            "nbHeures": 7,
+            "commentaire": ""
+          },
+          {
+            "dayDate": "2019-08-07T00:00:00.000Z",
+            "nbHeures": 7,
+            "commentaire": ""
+          },
+          {
+            "dayDate": "2019-08-08T00:00:00.000Z",
+            "nbHeures": 7,
+            "commentaire": ""
+          },
+          {
+            "dayDate": "2019-08-09T00:00:00.000Z",
+            "nbHeures": 7,
+            "commentaire": ""
+          },
+          {
+            "dayDate": "2019-08-10T00:00:00.000Z",
+            "nbHeures": 0,
+            "commentaire": ""
+          },
+          {
+            "dayDate": "2019-08-11T00:00:00.000Z",
+            "nbHeures": 0,
+            "commentaire": ""
+          }
+        ]
+      }],
+      "timesheetRatesVO": [{
+        "_comment": "=================================  Rubriques(financier) des RH =================================",
+        "rubriqueCode": "001",
+        "rubriqueClientId": 12,
+        "rubriqueClientCode": "ABCD",
+        "rubriqueLibelle": "Heures normales",
+        "quantite": 35,
+        "tauxPaye": 10,
+        "montantPaye": 350,
+        "coeffFacturation": 1.76,
+        "tauxFacture": 17.6,
+        "montantFacture": 616,
+        "compteImputationId": 12,
+        "compteImputationLibelle": "Compte Informatique",
+        "version": 1,
+        "sourceId": 1,
+        "dirtyBy": "Alexis.DEMARINIS"
+      }],
+      "timesheetHistoricVO": []
+    },
+    {
+      "id": 2,
+      "weekDate": "2019-31",
+      "startDate": "29/07/2019",
+      "endDate": "31/07/2019",
+      "compteImputationId": 12,
+      "compteImputationLibelle": "Compte Informatique",
+      "weekPart": 1,
+      "RhPdfPath": "http://gestionrh.usgpeople.fr/Archive/054/2019/561110/32/2519784_0_20190812T091241.jpg?1565599383915",
+      "statut": {
+        "id": 1,
+        "libelle": "A saisir"
+      },
+      "sources": [{
+          "id": 1,
+          "libelle": "Manuel"
+        },
+        {
+          "id": 2,
+          "libelle": "Import"
+        }
+      ],
+      "nbJours": 3,
+      "nbHeures": 21.0,
+      "montantFac": 958.16,
+      "montantPaie": 532.25,
+      "commentaire": "Commentaire sur le RH",
+      "timesheetHeaderVO": {
+        "_comment": "=================================  Entete des RH =================================",
+        "contratId": 7895213,
+        "contratDateDebut": "03/06/2019",
+        "contratDateFin": "29/06/2019",
+        "contratDateDebutSouplesse": "23/06/2019",
+        "contratDateFinSouplesse": "30/06/2019",
+        "contratDateUtilisationSouplesse": "31/06/2019",
+        "contratDateFinAffichage": "31/06/2019",
+        "contratStatusCode": 1,
+        "contratStatusLibelle": "Cloturé",
+        "clientId": 1245,
+        "clientNom": "Onesys SARL",
+        "interimId": 719416,
+        "interimNom": "BESSON ERIC"
+      },
+      "timesheetLinesDaysAndHoursVO": [{
+        "compteImputationId": 12,
+        "compteImputationLibelle": "Compte Informatique",
+        "typeJourId": 1,
+        "typeJourLibelle": "Jour",
+        "timesheetDaysVO": [{
+            "dayDate": "2019-07-29T00:00:00.000Z",
+            "nbHeures": 7,
+            "commentaire": "L'intérimaire a bien travaillé le lundi"
+          },
+          {
+            "dayDate": "2019-07-30T00:00:00.000Z",
+            "nbHeures": 7,
+            "commentaire": "Retard rattrapé dans la journée"
+          },
+          {
+            "dayDate": "2019-07-31T00:00:00.000Z",
+            "nbHeures": 7,
+            "commentaire": ""
+          },
+          {
+            "dayDate": "2019-08-01T00:00:00.000Z",
+            "nbHeures": 0,
+            "commentaire": "L'intérimaire a bien travaillé le lundi"
+          },
+          {
+            "dayDate": "2019-08-02T00:00:00.000Z",
+            "nbHeures": 0,
+            "commentaire": "1"
+          },
+          {
+            "dayDate": "2019-08-03T00:00:00.000Z",
+            "nbHeures": 0,
+            "commentaire": ""
+          },
+          {
+            "dayDate": "2019-08-04T00:00:00.000Z",
+            "nbHeures": 0,
+            "commentaire": ""
+          }
+        ]
+      }],
+      "timesheetRatesVO": [{
+        "_comment": "=================================  Rubriques(financier) des RH =================================",
+        "rubriqueCode": "001",
+        "rubriqueClientId": 12,
+        "rubriqueClientCode": "ABCD",
+        "rubriqueLibelle": "Heures normales",
+        "quantite": 21,
+        "tauxPaye": 10,
+        "montantPaye": 210,
+        "coeffFacturation": 1.76,
+        "tauxFacture": 17.6,
+        "montantFacture": 369.6,
+        "compteImputationId": 12,
+        "compteImputationLibelle": "Compte Informatique",
+        "version": 1,
+        "sourceId": 1,
+        "dirtyBy": "Alexis.DEMARINIS"
+      }],
+      "timesheetHistoricVO": []
+    },
+    {
+      "id": 3,
+      "weekDate": "2019-31",
+      "startDate": "01/08/2019",
+      "endDate": "04/08/2019",
+      "compteImputationId": 12,
+      "compteImputationLibelle": "Compte Informatique",
+      "weekPart": 2,
+      "RhPdfPath": "http://gestionrh.usgpeople.fr/Archive/054/2019/561110/32/2519784_0_20190812T091241.jpg?1565599383915",
+      "statut": {
+        "id": 1,
+        "libelle": "A saisir"
+      },
+      "sources": [{
+          "id": 1,
+          "libelle": "Manuel"
+        },
+        {
+          "id": 2,
+          "libelle": "Import"
+        }
+      ],
+      "nbJours": 2,
+      "nbHeures": 14.0,
+      "montantFac": 958.16,
+      "montantPaie": 532.25,
+      "commentaire": "Commentaire sur le RH",
+      "timesheetHeaderVO": {
+        "_comment": "=================================  Entete des RH =================================",
+        "contratId": 7895213,
+        "contratDateDebut": "03/06/2019",
+        "contratDateFin": "29/06/2019",
+        "contratDateDebutSouplesse": "23/06/2019",
+        "contratDateFinSouplesse": "30/06/2019",
+        "contratDateUtilisationSouplesse": "31/06/2019",
+        "contratDateFinAffichage": "31/06/2019",
+        "contratStatusCode": 1,
+        "contratStatusLibelle": "Cloturé",
+        "clientId": 1245,
+        "clientNom": "Onesys SARL",
+        "interimId": 719416,
+        "interimNom": "BESSON ERIC"
+      },
+      "timesheetLinesDaysAndHoursVO": [{
+        "compteImputationId": 12,
+        "compteImputationLibelle": "Compte Informatique",
+        "typeJourId": 1,
+        "typeJourLibelle": "Jour",
+        "timesheetDaysVO": [{
+            "dayDate": "2019-07-29T00:00:00.000Z",
+            "nbHeures": 0,
+            "commentaire": "L'intérimaire a bien travaillé le lundi"
+          },
+          {
+            "dayDate": "2019-07-30T00:00:00.000Z",
+            "nbHeures": 0,
+            "commentaire": "Retard rattrapé dans la journée"
+          },
+          {
+            "dayDate": "2019-07-31T00:00:00.000Z",
+            "nbHeures": 0,
+            "commentaire": ""
+          },
+          {
+            "dayDate": "2019-08-01T00:00:00.000Z",
+            "nbHeures": 7,
+            "commentaire": "L'intérimaire a bien travaillé le lundi"
+          },
+          {
+            "dayDate": "2019-08-02T00:00:00.000Z",
+            "nbHeures": 7,
+            "commentaire": "1"
+          },
+          {
+            "dayDate": "2019-08-03T00:00:00.000Z",
+            "nbHeures": 0,
+            "commentaire": ""
+          },
+          {
+            "dayDate": "2019-08-04T00:00:00.000Z",
+            "nbHeures": 0,
+            "commentaire": ""
+          }
+        ]
+      }],
+      "timesheetRatesVO": [{
+        "_comment": "=================================  Rubriques(financier) des RH =================================",
+        "rubriqueCode": "001",
+        "rubriqueClientId": 12,
+        "rubriqueClientCode": "ABCD",
+        "rubriqueLibelle": "Heures normales",
+        "quantite": 14,
+        "tauxPaye": 10,
+        "montantPaye": 140,
+        "coeffFacturation": 1.76,
+        "tauxFacture": 17.6,
+        "montantFacture": 369.6,
+        "compteImputationId": 12,
+        "compteImputationLibelle": "Compte Informatique",
+        "version": 1,
+        "sourceId": 1,
+        "dirtyBy": "Alexis.DEMARINIS"
+      }],
+      "timesheetHistoricVO": []
+    }
+  ],
+  "InterimaireAutoCompleteVO": [{
+      "id": 1,
+      "libelle": "Alexis de Marinis"
+    },
+    {
+      "id": 2,
+      "libelle": "Alexandre Meunier"
+    },
+    {
+      "id": 3,
+      "libelle": "Alex Martin"
+    },
+    {
+      "id": 719416,
+      "libelle": "Éric Besson"
+    },
+    {
+      "id": 719417,
+      "libelle": "Éric Mourichou"
+    },
+    {
+      "id": 4,
+      "libelle": "Mickaël Lesvier"
+    },
+    {
+      "id": 5,
+      "libelle": "Aurélien Joly"
+    },
+    {
+      "id": 6,
+      "libelle": "Valentin Lop"
+    }
+  ],
+  "ServiceAutoCompleteVO": [{
+      "id": 1245,
+      "libelle": "Onesys SARL"
+    },
+    {
+      "id": 2,
+      "libelle": "Twosys SARL"
+    },
+    {
+      "id": 3,
+      "libelle": "Threesys SARL"
+    }
+  ],
+  "ContratAutoCompleteVO": [{
+      "id": 7895213,
+      "libelle": "523835"
+    },
+    {
+      "id": 2,
+      "libelle": "123456"
+    },
+    {
+      "id": 3,
+      "libelle": "234567"
+    }
+  ],
+  "ContratSummaryVO": [{
+    "id": 7895213,
+    "contratDateDebut": "03/06/2019",
+    "contratDateFin": "29/06/2019",
+    "qualifLibelle": "AGENT ADMINISTRATIF",
+    "cycle": "FA35A - Administratif 35h",
+    "debutEffective": "03/06/2019",
+    "finEffective": "29/06/2019",
+    "version": 1,
+    "typeAvenant": "Initial, Prolongation de contrat"
+  }],
+  "ClientSummaryVO": [{
+    "id": 3228,
+    "dateCreation": "03/06/2019",
+    "libelle": "Lac Poste",
+    "nbAgence": 50,
+    "agenceCourante": "Venissieux"
+  }],
+  "CompteImputationVo": [{
+      "id": 12,
+      "clientId": 1245,
+      "libelle": "Compte Informatique"
+    },
+    {
+      "id": 2,
+      "clientId": 1245,
+      "libelle": "Ressources humaines"
+    },
+    {
+      "id": 3,
+      "clientId": 1245,
+      "libelle": "Comptabilité"
+    },
+    {
+      "id": 4,
+      "clientId": 4,
+      "libelle": "Compte client 4"
+    },
+    {
+      "id": 5,
+      "clientId": 12,
+      "libelle": "Compte client 12"
+    },
+    {
+      "id": 6,
+      "clientId": 1000,
+      "libelle": "Compte client 1000 - 1"
+    },
+    {
+      "id": 7,
+      "clientId": 1000,
+      "libelle": "Compte client 1000 - 2"
+    }
+  ],
+  "RhSummaryVO": [{
+    "id": 1,
+    "commentaire": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras magna."
+  }]
+}
